@@ -1,0 +1,72 @@
+[
+  {
+    "model": "MLP",
+    "seed": 0,
+    "test_accuracy": 0.547,
+    "test_macro_f1": 0.5407,
+    "stop_epoch": 112
+  },
+  {
+    "model": "MLP",
+    "seed": 1,
+    "test_accuracy": 0.578,
+    "test_macro_f1": 0.5651,
+    "stop_epoch": 106
+  },
+  {
+    "model": "MLP",
+    "seed": 2,
+    "test_accuracy": 0.543,
+    "test_macro_f1": 0.5352,
+    "stop_epoch": 109
+  },
+  {
+    "model": "MLP",
+    "seed": 3,
+    "test_accuracy": 0.544,
+    "test_macro_f1": 0.532,
+    "stop_epoch": 91
+  },
+  {
+    "model": "MLP",
+    "seed": 4,
+    "test_accuracy": 0.558,
+    "test_macro_f1": 0.5472,
+    "stop_epoch": 113
+  },
+  {
+    "model": "GCN",
+    "seed": 0,
+    "test_accuracy": 0.794,
+    "test_macro_f1": 0.786,
+    "stop_epoch": 129
+  },
+  {
+    "model": "GCN",
+    "seed": 1,
+    "test_accuracy": 0.793,
+    "test_macro_f1": 0.7819,
+    "stop_epoch": 99
+  },
+  {
+    "model": "GCN",
+    "seed": 2,
+    "test_accuracy": 0.81,
+    "test_macro_f1": 0.7999,
+    "stop_epoch": 135
+  },
+  {
+    "model": "GCN",
+    "seed": 3,
+    "test_accuracy": 0.813,
+    "test_macro_f1": 0.8039,
+    "stop_epoch": 195
+  },
+  {
+    "model": "GCN",
+    "seed": 4,
+    "test_accuracy": 0.808,
+    "test_macro_f1": 0.7951,
+    "stop_epoch": 174
+  }
+]

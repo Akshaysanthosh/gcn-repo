@@ -1,0 +1,92 @@
+[
+  {
+    "model": "MLP",
+    "seed": 0,
+    "test_accuracy": 0.546999990940094,
+    "test_macro_f1": 0.5406907073358841,
+    "stop_epoch": 112,
+    "best_epoch": 108,
+    "best_val_loss": 1.45913565158844
+  },
+  {
+    "model": "MLP",
+    "seed": 1,
+    "test_accuracy": 0.578000009059906,
+    "test_macro_f1": 0.5651235512247926,
+    "stop_epoch": 106,
+    "best_epoch": 101,
+    "best_val_loss": 1.405950903892517
+  },
+  {
+    "model": "MLP",
+    "seed": 2,
+    "test_accuracy": 0.5429999828338623,
+    "test_macro_f1": 0.5352072391383332,
+    "stop_epoch": 109,
+    "best_epoch": 106,
+    "best_val_loss": 1.4910870790481567
+  },
+  {
+    "model": "MLP",
+    "seed": 3,
+    "test_accuracy": 0.5440000295639038,
+    "test_macro_f1": 0.5320112193856127,
+    "stop_epoch": 91,
+    "best_epoch": 86,
+    "best_val_loss": 1.5199121236801147
+  },
+  {
+    "model": "MLP",
+    "seed": 4,
+    "test_accuracy": 0.5580000281333923,
+    "test_macro_f1": 0.54720508190414,
+    "stop_epoch": 113,
+    "best_epoch": 111,
+    "best_val_loss": 1.4337271451950073
+  },
+  {
+    "model": "GCN",
+    "seed": 0,
+    "test_accuracy": 0.7940000295639038,
+    "test_macro_f1": 0.7859843668935079,
+    "stop_epoch": 129,
+    "best_epoch": 125,
+    "best_val_loss": 0.9578522443771362
+  },
+  {
+    "model": "GCN",
+    "seed": 1,
+    "test_accuracy": 0.7929999828338623,
+    "test_macro_f1": 0.781863886628258,
+    "stop_epoch": 99,
+    "best_epoch": 94,
+    "best_val_loss": 1.031004786491394
+  },
+  {
+    "model": "GCN",
+    "seed": 2,
+    "test_accuracy": 0.8100000023841858,
+    "test_macro_f1": 0.7999460576330175,
+    "stop_epoch": 135,
+    "best_epoch": 131,
+    "best_val_loss": 0.9002513289451599
+  },
+  {
+    "model": "GCN",
+    "seed": 3,
+    "test_accuracy": 0.8130000233650208,
+    "test_macro_f1": 0.803896696080049,
+    "stop_epoch": 195,
+    "best_epoch": 192,
+    "best_val_loss": 0.797136664390564
+  },
+  {
+    "model": "GCN",
+    "seed": 4,
+    "test_accuracy": 0.8080000281333923,
+    "test_macro_f1": 0.7951338497747802,
+    "stop_epoch": 174,
+    "best_epoch": 170,
+    "best_val_loss": 0.8269417881965637
+  }
+]

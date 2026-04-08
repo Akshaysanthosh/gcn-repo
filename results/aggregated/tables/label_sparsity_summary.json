@@ -1,0 +1,82 @@
+[
+  {
+    "labels_per_class": 1,
+    "model": "MLP",
+    "test_accuracy_mean": 0.19439999908208846,
+    "test_accuracy_std": 0.06599090727987694,
+    "test_macro_f1_mean": 0.1364803338001818,
+    "test_macro_f1_std": 0.07017617392575261
+  },
+  {
+    "labels_per_class": 1,
+    "model": "GCN",
+    "test_accuracy_mean": 0.2457999989390373,
+    "test_accuracy_std": 0.10563474617827368,
+    "test_macro_f1_mean": 0.21261153535023788,
+    "test_macro_f1_std": 0.12429406164588207
+  },
+  {
+    "labels_per_class": 3,
+    "model": "MLP",
+    "test_accuracy_mean": 0.334400001168251,
+    "test_accuracy_std": 0.0876629913624999,
+    "test_macro_f1_mean": 0.30417024886584587,
+    "test_macro_f1_std": 0.07613069852978811
+  },
+  {
+    "labels_per_class": 3,
+    "model": "GCN",
+    "test_accuracy_mean": 0.549999988079071,
+    "test_accuracy_std": 0.05314132496598058,
+    "test_macro_f1_mean": 0.5490315179880356,
+    "test_macro_f1_std": 0.04645193013477905
+  },
+  {
+    "labels_per_class": 5,
+    "model": "MLP",
+    "test_accuracy_mean": 0.3812000036239624,
+    "test_accuracy_std": 0.0444769591334742,
+    "test_macro_f1_mean": 0.3636679022936444,
+    "test_macro_f1_std": 0.04254577720261447
+  },
+  {
+    "labels_per_class": 5,
+    "model": "GCN",
+    "test_accuracy_mean": 0.6245999932289124,
+    "test_accuracy_std": 0.024254900288748743,
+    "test_macro_f1_mean": 0.6237183807385381,
+    "test_macro_f1_std": 0.02251935030522006
+  },
+  {
+    "labels_per_class": 10,
+    "model": "MLP",
+    "test_accuracy_mean": 0.4586000025272369,
+    "test_accuracy_std": 0.031093409523179433,
+    "test_macro_f1_mean": 0.44824046560455955,
+    "test_macro_f1_std": 0.025075330674596684
+  },
+  {
+    "labels_per_class": 10,
+    "model": "GCN",
+    "test_accuracy_mean": 0.7233999967575073,
+    "test_accuracy_std": 0.03253919969985724,
+    "test_macro_f1_mean": 0.7179425253011543,
+    "test_macro_f1_std": 0.027584059354251587
+  },
+  {
+    "labels_per_class": 20,
+    "model": "MLP",
+    "test_accuracy_mean": 0.5467999994754791,
+    "test_accuracy_std": 0.03897050489315068,
+    "test_macro_f1_mean": 0.535374808414702,
+    "test_macro_f1_std": 0.031997465362295
+  },
+  {
+    "labels_per_class": 20,
+    "model": "GCN",
+    "test_accuracy_mean": 0.7837999939918519,
+    "test_accuracy_std": 0.013535144863827942,
+    "test_macro_f1_mean": 0.7716284782488068,
+    "test_macro_f1_std": 0.013280127226553081
+  }
+]

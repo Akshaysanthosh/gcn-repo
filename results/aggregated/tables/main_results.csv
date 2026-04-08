@@ -1,0 +1,3 @@
+Model,Accuracy (mean ± std),Macro-F1 (mean ± std)
+MLP,0.5540 ± 0.0147,0.5440 ± 0.0131
+GCN,0.8036 ± 0.0094,0.7934 ± 0.0093

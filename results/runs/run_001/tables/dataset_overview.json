@@ -1,0 +1,26 @@
+[
+  {
+    "Statistic": "Number of nodes",
+    "Value": 2708
+  },
+  {
+    "Statistic": "Number of features",
+    "Value": 1433
+  },
+  {
+    "Statistic": "Number of classes",
+    "Value": 7
+  },
+  {
+    "Statistic": "Training nodes",
+    "Value": 140
+  },
+  {
+    "Statistic": "Validation nodes",
+    "Value": 500
+  },
+  {
+    "Statistic": "Test nodes",
+    "Value": 1000
+  }
+]

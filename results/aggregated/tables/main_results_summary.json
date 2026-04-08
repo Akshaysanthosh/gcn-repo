@@ -1,0 +1,20 @@
+[
+  {
+    "model": "MLP",
+    "test_accuracy_mean": 0.5540000081062317,
+    "test_accuracy_std": 0.014679923136379664,
+    "test_macro_f1_mean": 0.5440475597977525,
+    "test_macro_f1_std": 0.013119266164824285,
+    "stop_epoch_mean": 106.2,
+    "stop_epoch_std": 8.927485648266257
+  },
+  {
+    "model": "GCN",
+    "test_accuracy_mean": 0.803600013256073,
+    "test_accuracy_std": 0.00939681480144497,
+    "test_macro_f1_mean": 0.7933649714019225,
+    "test_macro_f1_std": 0.009275035380735453,
+    "stop_epoch_mean": 146.4,
+    "stop_epoch_std": 38.08936859544931
+  }
+]

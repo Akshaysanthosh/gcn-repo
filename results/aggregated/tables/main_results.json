@@ -1,0 +1,12 @@
+[
+  {
+    "Model": "MLP",
+    "Accuracy (mean \u00b1 std)": "0.5540 \u00b1 0.0147",
+    "Macro-F1 (mean \u00b1 std)": "0.5440 \u00b1 0.0131"
+  },
+  {
+    "Model": "GCN",
+    "Accuracy (mean \u00b1 std)": "0.8036 \u00b1 0.0094",
+    "Macro-F1 (mean \u00b1 std)": "0.7934 \u00b1 0.0093"
+  }
+]

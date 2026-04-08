@@ -1,0 +1,125 @@
+{
+  "run_id": "run_001",
+  "timestamp": "2026-04-07T20:45:43-04:00",
+  "figures": [
+    {
+      "path": "runs/run_001/figures/main_results_comparison.png",
+      "aggregated_path": "aggregated/figures/main_results_comparison.png"
+    },
+    {
+      "path": "runs/run_001/figures/mlp_training_curves.png",
+      "aggregated_path": "aggregated/figures/mlp_training_curves.png"
+    },
+    {
+      "path": "runs/run_001/figures/gcn_training_curves.png",
+      "aggregated_path": "aggregated/figures/gcn_training_curves.png"
+    },
+    {
+      "path": "runs/run_001/figures/tsne_mlp.png",
+      "aggregated_path": "aggregated/figures/tsne_mlp.png"
+    },
+    {
+      "path": "runs/run_001/figures/tsne_gcn.png",
+      "aggregated_path": "aggregated/figures/tsne_gcn.png"
+    },
+    {
+      "path": "runs/run_001/figures/label_sparsity_accuracy.png",
+      "aggregated_path": "aggregated/figures/label_sparsity_accuracy.png"
+    }
+  ],
+  "tables": [
+    {
+      "path": "runs/run_001/tables/dataset_overview.csv",
+      "aggregated_path": "aggregated/tables/dataset_overview.csv"
+    },
+    {
+      "path": "runs/run_001/tables/dataset_overview.json",
+      "aggregated_path": "aggregated/tables/dataset_overview.json"
+    },
+    {
+      "path": "runs/run_001/tables/main_results.csv",
+      "aggregated_path": "aggregated/tables/main_results.csv"
+    },
+    {
+      "path": "runs/run_001/tables/main_results.json",
+      "aggregated_path": "aggregated/tables/main_results.json"
+    },
+    {
+      "path": "runs/run_001/tables/multi_seed_results.csv",
+      "aggregated_path": "aggregated/tables/multi_seed_results.csv"
+    },
+    {
+      "path": "runs/run_001/tables/multi_seed_results.json",
+      "aggregated_path": "aggregated/tables/multi_seed_results.json"
+    },
+    {
+      "path": "runs/run_001/tables/main_results_summary.csv",
+      "aggregated_path": "aggregated/tables/main_results_summary.csv"
+    },
+    {
+      "path": "runs/run_001/tables/main_results_summary.json",
+      "aggregated_path": "aggregated/tables/main_results_summary.json"
+    },
+    {
+      "path": "runs/run_001/tables/label_sparsity_results.csv",
+      "aggregated_path": "aggregated/tables/label_sparsity_results.csv"
+    },
+    {
+      "path": "runs/run_001/tables/label_sparsity_results.json",
+      "aggregated_path": "aggregated/tables/label_sparsity_results.json"
+    },
+    {
+      "path": "runs/run_001/tables/label_sparsity_summary.csv",
+      "aggregated_path": "aggregated/tables/label_sparsity_summary.csv"
+    },
+    {
+      "path": "runs/run_001/tables/label_sparsity_summary.json",
+      "aggregated_path": "aggregated/tables/label_sparsity_summary.json"
+    }
+  ],
+  "logs": [
+    {
+      "path": "runs/run_001/logs/main_results_by_seed.csv",
+      "aggregated_path": "aggregated/logs/main_results_by_seed.csv"
+    },
+    {
+      "path": "runs/run_001/logs/main_results_by_seed.json",
+      "aggregated_path": "aggregated/logs/main_results_by_seed.json"
+    },
+    {
+      "path": "runs/run_001/logs/mlp_training_history_seed_0.csv",
+      "aggregated_path": "aggregated/logs/mlp_training_history_seed_0.csv"
+    },
+    {
+      "path": "runs/run_001/logs/mlp_training_history_seed_0.json",
+      "aggregated_path": "aggregated/logs/mlp_training_history_seed_0.json"
+    },
+    {
+      "path": "runs/run_001/logs/gcn_training_history_seed_0.csv",
+      "aggregated_path": "aggregated/logs/gcn_training_history_seed_0.csv"
+    },
+    {
+      "path": "runs/run_001/logs/gcn_training_history_seed_0.json",
+      "aggregated_path": "aggregated/logs/gcn_training_history_seed_0.json"
+    },
+    {
+      "path": "runs/run_001/logs/main_training_histories.json",
+      "aggregated_path": "aggregated/logs/main_training_histories.json"
+    },
+    {
+      "path": "runs/run_001/logs/label_sparsity_results_by_seed.csv",
+      "aggregated_path": "aggregated/logs/label_sparsity_results_by_seed.csv"
+    },
+    {
+      "path": "runs/run_001/logs/label_sparsity_results_by_seed.json",
+      "aggregated_path": "aggregated/logs/label_sparsity_results_by_seed.json"
+    }
+  ],
+  "config": {
+    "path": "runs/run_001/config.json"
+  },
+  "summary": {
+    "path": "runs/run_001/run_summary.json",
+    "aggregated_path": "aggregated/summary.json"
+  }
+}

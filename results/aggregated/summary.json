@@ -1,0 +1,45 @@
+{
+  "run_id": "run_001",
+  "timestamp": "2026-04-07T20:45:43-04:00",
+  "dataset": "Cora",
+  "number_of_seeds": 5,
+  "seed_list": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "main_results": {
+    "MLP": {
+      "accuracy_mean": 0.554,
+      "accuracy_std": 0.0147,
+      "macro_f1_mean": 0.544,
+      "macro_f1_std": 0.0131
+    },
+    "GCN": {
+      "accuracy_mean": 0.8036,
+      "accuracy_std": 0.0094,
+      "macro_f1_mean": 0.7934,
+      "macro_f1_std": 0.0093
+    }
+  },
+  "gcn_outperformed_mlp": true,
+  "label_sparsity_conclusions": [
+    "GCN outperformed MLP at every tested label budget.",
+    "The largest average accuracy gap was 0.2648 at 10 labels per class.",
+    "Both models improved as more labels were provided, but the GCN remained clearly stronger."
+  ],
+  "paths": {
+    "run_dir": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001",
+    "figures_dir": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/figures",
+    "tables_dir": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/tables",
+    "logs_dir": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/logs",
+    "aggregated_dir": "/Users/akshaysanthosh/Desktop/GNN/results/aggregated",
+    "main_results_table": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/tables/main_results.csv",
+    "multi_seed_results_table": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/tables/multi_seed_results.csv",
+    "label_sparsity_results_table": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/tables/label_sparsity_results.csv",
+    "main_results_figure": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/figures/main_results_comparison.png",
+    "label_sparsity_figure": "/Users/akshaysanthosh/Desktop/GNN/results/runs/run_001/figures/label_sparsity_accuracy.png"
+  }
+}
