@@ -6,13 +6,26 @@ Kipf, T. N., & Welling, M. (2017). *Semi-Supervised Classification with Graph Co
 
 The project focuses on a clean reimplementation of the original 2-layer GCN for semi-supervised node classification on the Cora citation network, along with a feature-only MLP baseline and one extension experiment on label sparsity.
 
+## Recorded results
+
+The repository's saved Cora runs report the following mean ± sample standard deviation over **five seeds**:
+
+| Model | Test accuracy | Macro-F1 |
+| --- | --- | --- |
+| Feature-only MLP | 55.40 ± 1.47% | 54.40 ± 1.31% |
+| Two-layer GCN | 80.36 ± 0.94% | 79.34 ± 0.93% |
+
+[Per-seed records](results/aggregated/logs/main_results_by_seed.csv) · [Aggregated results](results/aggregated/tables/main_results_summary.json) · [Model implementation](src/models.py)
+
+These are stored experimental results, not a new training run. This is a transductive study on one small citation dataset; dense adjacency limits scalability. Training evaluates stopping-epoch weights and does not restore a best-validation checkpoint. Results should be interpreted within that protocol.
+
 ## Quick start
 
 If you want the shortest path from a fresh clone to a full notebook run, use:
 
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/Akshaysanthosh/gcn-repo.git
+cd gcn-repo
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -73,8 +86,8 @@ Then open `notebooks/gcn_reproducibility.ipynb` and run all cells from a fresh k
 1. Clone the repository and enter the project directory:
 
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/Akshaysanthosh/gcn-repo.git
+cd gcn-repo
 ```
 
 2. Create and activate a virtual environment:
